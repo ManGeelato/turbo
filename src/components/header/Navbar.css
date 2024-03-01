@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #363658;
+}
+.navbar-brand {
+  background: -webkit-linear-gradient(
+    0deg,
+    rgb(174, 137, 88),
+    #6694ef,
+    #ef9546
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+#navLinks {
+  color: #faebd7;
+}
+#navLinks:hover {
+  color: #fcb962;
+}
+#navIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+#navIcons i {
+  color: #faebd7;
+  margin-right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+#navIcons i:hover {
+  color: #fcb962;
+  rotate: 20deg;
+}
+#navBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navBtn button {
+  padding: 10px 25px;
+  background-color: #faebd7;
+  border: none;
+  border-radius: 2px;
+}
+#navBtn button:hover {
+  color: #2b2be3;
+}

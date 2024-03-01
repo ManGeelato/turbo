@@ -1,0 +1,22 @@
+#footerPage{
+  margin-top: 20px;
+    background-color: #363658;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#footerCard h4{
+  color: antiquewhite;
+}
+#footerCard p{
+    color: antiquewhite;
+  }
+  #footerRightCard{
+    border-top: 1px solid #faebd759;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #footerRightCard small{
+    color: #f8b864;
+  }

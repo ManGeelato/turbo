@@ -1,0 +1,91 @@
+#aboutPage{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.5)),
+      url("../../assets/pic01.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#aboutPageBox h2{
+    color: #f3b25e;
+    font-weight: 700;
+}
+#aboutBoxCard{
+    margin-top: 20px;
+}
+#aboutBoxCard h4{
+    color: #363658;
+    font-weight: 700;
+}
+#aboutCard{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+#aboutCard img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+#aboutCard button{
+    margin-bottom: 15px;
+    padding: 8px 25px;
+    border-radius: 2px;
+    border: none;
+    background-color: #363658;
+    color: #f3b25e;
+}
+#faq{
+    margin-top: 20px;
+}
+#faq h4{
+    color: #363658;
+    font-weight: 700;
+    text-align: center;
+}
+.accordion-button{
+    background-color: #363658;
+    color: #f3b25e;
+}
+#aboutOffer{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 20px;
+    width: 100%;
+    padding: 40px 20px;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.5)),
+      url("../../assets/pic02.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#aboutOfferCard{
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #faebd754;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+#aboutOfferCard:hover{
+    background-color: #f3b25e1e;
+}
+#aboutOfferCard i{
+    color: #f3b25e;
+    font-size: 50px;
+}
+#aboutOfferCard p{
+    color: #f3b25e;
+   font-weight: 700;
+}
