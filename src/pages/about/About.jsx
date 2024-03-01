@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Banner01 from "../../assets/pic04.jpeg";
+import Banner01 from "../../assets/8.jpg";
 import Footer from "../../components/footer/Footer";
 
 function About() {

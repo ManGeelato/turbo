@@ -1,9 +1,5 @@
 import React from "react";
 import "./Home.css";
-// import Banner01 from "../../assets/pic01.jpeg";
-// import Banner02 from "../../assets/pic02.jpeg";
-// import Banner03 from "../../assets/pic03.jpeg";
-// import Banner04 from "../../assets/pic04.jpeg";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
@@ -13,27 +9,26 @@ function Home() {
   const items = [
     <div id="reviewCard">
       <div id="reviewCardInner">
-        <h1>Welcome to GEE Transport Logistics</h1>
+        <h1>Turbo Pro SA</h1>
         <p>
-          Where Efficiency Meets Reliability - Delivering Solutions for Seamless
-          Logistics Operations.
+          Where Efficiency Meets Reliability - Delivering Solutions for All Turbo Needs.
         </p>
         <button>Our Work</button>
       </div>
     </div>,
     <div id="reviewCard01">
       <div id="reviewCardInner">
-        <h1>Explore Our Logistics Expertise</h1>
+        <h1>Explore Our Turbo Expertise</h1>
         <p>
-          Unlocking Success through Innovative Supply Chain Solutions - Your
-          Partner in Streamlining Operations
+          Unlocking Success through Innovative Turbo Solutions - Your
+          Partner in Streamlining All Vehicle Parts
         </p>
         <button>Our Work</button>
       </div>
     </div>,
     <div id="reviewCard02">
       <div id="reviewCardInner">
-        <h1>Experience Excellence in Logistics</h1>
+        <h1>Experience Excellence in Turbo Solutions</h1>
         <p>
           Driving Growth, Building Trust - Delivering Beyond Expectations Every
           Step of the Way
@@ -70,7 +65,7 @@ function Home() {
               </div>
               <div id="homeAddressCardText">
                 <small>
-                  150 Mars Street<br></br> Jupiter, Mars Planet
+                32 Van Riebeck Ave, (Shop 32D)<br></br>: Edenvale, Gauteng 
                 </small>
               </div>
             </div>
@@ -94,7 +89,7 @@ function Home() {
               </div>
               <div id="homeAddressCardText">
                 <small>
-                  +123 771 234 5678<br></br>+123 771 234 5678<br></br>
+                  +27 11 568 6754<br></br>+27 74 227 4187<br></br>
                 </small>
               </div>
             </div>
@@ -106,7 +101,7 @@ function Home() {
               </div>
               <div id="homeAddressCardText">
                 <small>
-                  geetransport@gmail.com<br></br> geetransport@gmail.com
+                  sales@turboprosa.co.za<br></br> sales@turboprosa.co.za
                   <br></br>
                 </small>
               </div>
@@ -214,26 +209,27 @@ function Home() {
           <div class="row">
             <div class="col-lg-3 col-md-4" id="offerCardBox">
               <div id="offerCard">
-                <h4>10+</h4>
-                <h5>Experience</h5>
+                <h4>3+</h4>
+                <h5>Years of Experience</h5>
               </div>
             </div>
             <div class="col-lg-3 col-md-4" id="offerCardBox">
               <div id="offerCard">
-                <h4>1000+</h4>
+                <h4>500+</h4>
                 <h5>Completed Projects</h5>
               </div>
             </div>
             <div class="col-lg-3 col-md-4" id="offerCardBox">
               <div id="offerCard">
-                <h4>300+</h4>
+                <h4>380+</h4>
                 <h5>Happy Clients</h5>
               </div>
             </div>
+
             <div class="col-lg-3 col-md-4" id="offerCardBox">
               <div id="offerCard">
-                <h4>10+</h4>
-                <h5>Experience</h5>
+                <h4>50+</h4>
+                <h5>Trusted Affliates</h5>
               </div>
             </div>
           </div>
@@ -317,7 +313,7 @@ function Home() {
                   </div>
                   <div id="homeContactCardIText">
                     <p>
-                      150 Mars Street<br></br>Jupiter Mars Planet
+                    32 Van Riebeck Ave, (Shop 32D)<br></br>: Edenvale, Gauteng 
                     </p>
                   </div>
                 </div>
@@ -337,7 +333,7 @@ function Home() {
                   </div>
                   <div id="homeContactCardIText">
                     <p>
-                      +123 773 123 3456<br></br>+123 773 123 3456
+                      +27 11 568 6754<br></br>+27 74 227 4187<br></br>
                     </p>
                   </div>
                 </div>
@@ -347,7 +343,7 @@ function Home() {
                   </div>
                   <div id="homeContactCardIText">
                     <p>
-                      geetransport@info.com<br></br>geetransport@gmail.com
+                      sales@turboprosa.co.za<br></br> sales@turboprosa.co.za
                     </p>
                   </div>
                 </div>

@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url("../../assets/pic01.jpeg");
+    url("../../assets/8.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url("../../assets/pic02.jpeg");
+    url("../../assets/9.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +31,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url("../../assets/pic03.jpeg");
+    url("../../assets/10.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url("../../assets/pic04.jpeg");
+    url("../../assets/11.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -218,7 +218,7 @@
   align-items: center;
   justify-content: start;
   background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url("../../assets/pic04.jpeg");
+    url("../../assets/12.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

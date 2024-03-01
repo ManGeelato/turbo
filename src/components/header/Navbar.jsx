@@ -1,18 +1,16 @@
 import React from "react";
 import "./Navbar.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 function Navbar() {
   const navigate = useNavigate();
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          GEE
-          <span>
-            <i>transport</i>
-          </span>
-        </a>
+        <Link to="/" className="navbar-brand">
+          {/* <img src={'../../assets/logo.PNG'} alt="Turbo Pro" /> */}
+          <img alt="Turbo Pro" />
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -74,21 +72,6 @@ function Navbar() {
             <li
               class="nav-item"
               onClick={() => {
-                navigate("/work");
-              }}
-            >
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="#"
-                id="navLinks"
-              >
-                Our Works
-              </a>
-            </li>
-            <li
-              class="nav-item"
-              onClick={() => {
                 navigate("/contact");
               }}
             >
@@ -101,21 +84,7 @@ function Navbar() {
                 Contact
               </a>
             </li>
-            <li
-              class="nav-item"
-              onClick={() => {
-                navigate("/privacy");
-              }}
-            >
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="#"
-                id="navLinks"
-              >
-                Privacy
-              </a>
-            </li>
+            
           </ul>
           <div id="navBtn">
             <div id="navIcons">

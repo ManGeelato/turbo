@@ -11,8 +11,6 @@ import About from "./pages/about/About";
 import Services from "./pages/services/Services";
 import Work from "./pages/works/Work";
 import Contact from "./pages/contact/Contact";
-import Privacy from "./pages/privacy/Privacy";
-
 
 function App() {
   const router = createBrowserRouter(
@@ -21,9 +19,7 @@ function App() {
         <Route index element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/services" element={<Services/>}></Route>
-        <Route path="/work" element={<Work/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
-        <Route path="/privacy" element={<Privacy/>}></Route>
       </Route>
     )
   );
