@@ -1,22 +1,52 @@
 #footerPage{
   margin-top: 20px;
-    background-color: #363658;
+    /* background-color: #4596C9; */
+    background: -webkit-linear-gradient(0deg, #4596C9, #808080);
     padding-top: 20px;
     padding-bottom: 20px;
+}
+#footerCard{
+  /* border: 1px solid #f8b864; */
+  padding: 20px;
+  border-radius: 5px;
 }
 #footerCard h4{
   color: antiquewhite;
 }
 #footerCard p{
     color: antiquewhite;
-  }
-  #footerRightCard{
-    border-top: 1px solid #faebd759;
-    padding-top: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #footerRightCard small{
-    color: #f8b864;
-  }
+}
+#footerCard a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+#footerCard a:hover {
+  background: -webkit-linear-gradient(0deg, #4596C9, #f8b864);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#footerRightCard{
+  border-top: 1px solid #faebd759;
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footerRightCard a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+#footerRightCard a:hover{
+  background: -webkit-linear-gradient(0deg, #074972, #f8b864);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#footerRightCard small{
+  color: antiquewhite;
+}

@@ -33,7 +33,7 @@ function Home() {
           Driving Growth, Building Trust - Delivering Beyond Expectations Every
           Step of the Way
         </p>
-        <button>Our Work</button>
+        <button id="homeMessage">Our Work</button>
       </div>
     </div>,
   ];
@@ -65,7 +65,7 @@ function Home() {
               </div>
               <div id="homeAddressCardText">
                 <small>
-                32 Van Riebeck Ave, (Shop 32D)<br></br>: Edenvale, Gauteng 
+                32 Van Riebeck Ave, (32D De'sun Place)<br></br>: Edenvale, Gauteng 
                 </small>
               </div>
             </div>
@@ -113,91 +113,61 @@ function Home() {
           <div class="row">
             <div class="col-lg-4 col-md-4">
               <div id="homeBannerCard">
-                <i class="bx bx-bar-chart-alt-2"></i>
-                <h5> Lorem Ipsum is simply dummy text</h5>
+                <i class="bx bx-notepad"></i>
+                <h5>Research and Development:</h5>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. .
+                  Designing and engineering turbocharger systems require significant research and development efforts. 
+                  This involves designing components, testing prototypes, and optimizing performance.
                 </p>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="homeBannerCard">
               <i class='bx bx-notepad'></i>
-                <h5> Lorem Ipsum is simply dummy text</h5>
+                <h5>Sales and Distribution:</h5>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. .
+                  Turbocharger companies sell their products to various customers, including automotive manufacturers, aftermarket retailers, and individual consumers. 
+                  They may have distribution networks to reach customers worldwide.
                 </p>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="homeBannerCard">
-              <i class='bx bxs-plane-take-off'></i>
-                <h5> Lorem Ipsum is simply dummy text</h5>
+              <i class='bx bx-notepad'></i>
+                <h5>Technical Support: </h5>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. .
+                  Providing technical support to customers is crucial, especially for aftermarket installations. 
+                  This includes offering installation guidance, troubleshooting assistance, and maintenance advice.
                 </p>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="homeBannerCard">
-              <i class='bx bx-line-chart'></i>
-                <h5> Lorem Ipsum is simply dummy text</h5>
+              <i class='bx bx-notepad'></i>
+                <h5>Product Innovation: </h5>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. .
+                  Staying competitive in the automotive industry requires continuous product innovation. Turbocharger companies may develop new technologies, 
+                  improve efficiency, and explore alternative materials to enhance their products.
                 </p>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="homeBannerCard">
-              <i class='bx bx-conversation'></i>
-                <h5> Lorem Ipsum is simply dummy text</h5>
+              <i class='bx bx-notepad'></i>
+                <h5>Manufacturing:</h5>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. .
+                  Producing turbochargers involves precision manufacturing processes. This includes machining components, assembling turbocharger units, 
+                  and quality control inspections to ensure reliability and performance.
                 </p>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="homeBannerCard">
-                <i class="bx bx-bar-chart-alt-2"></i>
-                <h5> Lorem Ipsum is simply dummy text</h5>
+                <i class="bx bx-notepad"></i>
+                <h5>Compliance and Regulation: </h5>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. .
+                  Ensuring compliance with industry standards and regulations is important for product safety and performance. 
+                  Turbocharger companies need to adhere to emission standards in different markets.
                 </p>
               </div>
             </div>
@@ -236,11 +206,7 @@ function Home() {
           <div id="newsLetter">
             <h4>Please Subscribe To Our NewsLetter</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries,{" "}
+              Subscribe to our newsletter below so you don't miss any updates from us!,{" "}
             </p>
             <div id="newsLetterInput">
               <input type="email" placeholder="Email address" />
@@ -313,7 +279,7 @@ function Home() {
                   </div>
                   <div id="homeContactCardIText">
                     <p>
-                    32 Van Riebeck Ave, (Shop 32D)<br></br>: Edenvale, Gauteng 
+                    32 Van Riebeck Ave, (32D De'sun Place)<br></br>: Edenvale, Gauteng 
                     </p>
                   </div>
                 </div>

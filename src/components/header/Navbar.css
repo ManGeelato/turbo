@@ -1,5 +1,7 @@
 .navbar {
-  background-color: #363658;
+  /* background-color: #363658; */
+  /* background-color: #4596C9; */
+  background: -webkit-linear-gradient(0deg, #4596C9, #808080);
 }
 .navbar-brand {
   background: -webkit-linear-gradient(
@@ -48,7 +50,7 @@
   padding: 10px 25px;
   background-color: #faebd7;
   border: none;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 #navBtn button:hover {
   color: #2b2be3;
