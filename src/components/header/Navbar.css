@@ -1,20 +1,29 @@
 .navbar {
   /* background-color: #363658; */
   /* background-color: #4596C9; */
-  background: -webkit-linear-gradient(0deg, #4596C9, #808080);
+  background: -webkit-linear-gradient(0deg, #484848, #808080, #4596C9);
 }
+
+#logoPicture{
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+}
+
 .navbar-brand {
   background: -webkit-linear-gradient(
     0deg,
     rgb(174, 137, 88),
     #6694ef,
-    #ef9546
+    #fff
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   font-family: "Playfair Display", serif;
+  font-size: x-large;
+  
 }
 .nav-item {
   margin: 0px 15px;

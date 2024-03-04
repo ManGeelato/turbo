@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { useNavigate, Link } from "react-router-dom";
+import Logo from "../../assets/logo.jpg";
 
 function Navbar() {
   const navigate = useNavigate();
@@ -8,8 +9,8 @@ function Navbar() {
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <Link to="/" className="navbar-brand">
-          {/* <img src={'../../assets/logo.PNG'} alt="Turbo Pro" /> */}
-          <img alt="Turbo Pro" />
+          {/* <img src={Logo} id="logoPicture" /> */}
+          <p>Turbo Pro SA</p>
         </Link>
         <button
           class="navbar-toggler"

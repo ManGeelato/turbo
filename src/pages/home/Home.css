@@ -156,7 +156,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 2px solid #22315e54;
+  border: 3px solid #22315e54;
   width: 220px;
   height: 220px;
   border-radius: 50%;
@@ -172,7 +172,7 @@
 }
 #offerCard h5 {
   font-weight: 700;
-  background: -webkit-linear-gradient(0deg, #d29968, #3d74a0);
+  background: -webkit-linear-gradient(0deg, #808080, #4596C9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -205,7 +205,7 @@
   padding: 8px 35px;
   margin-left: 10px;
   border-radius: 4px;
-  background-color: #22315e;
+  background-color: #4596C9;
   border: none;
   color: antiquewhite;
 }
@@ -333,12 +333,13 @@
   justify-content: center;
   border: 1px solid #80808084;
   padding: 10px;
-  border-radius: 2px;
+  border-radius: 5px;
   margin-top: 20px;
   background-color: #f7d8ba29;
+  cursor: pointer;
 }
 #homeBannerCard i {
-  color: #363658;
+  color: #4596C9;
   font-size: 50px;
 }
 #homeBannerCard:hover {

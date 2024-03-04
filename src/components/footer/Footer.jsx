@@ -22,7 +22,7 @@ function Footer() {
           <div id="footerCard">
             <h4>About Us</h4>
             <p>
-              At TurboTech Automotive, we specialize in turbocharger solutions tailored to enhance the performance of a wide range of vehicles, including popular brands like Volkswagen (VW), 
+              At <strong>Turbo PRO SA</strong>, we specialize in turbocharge solutions tailored to enhance the performance of a wide range of vehicles, including popular brands like Volkswagen (VW), 
               BMW, Mercedes-Benz, and Mazda. With years of expertise and a passion for automotive innovation, we're dedicated to providing high-quality turbocharging solutions that elevate driving experiences to new heights.
             </p>
           </div>
