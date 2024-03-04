@@ -65,7 +65,7 @@ function Home() {
               </div>
               <div id="homeAddressCardText">
                 <small>
-                32 Van Riebeck Ave, (32D De'sun Place)<br></br>: Edenvale, Gauteng 
+                32 Van Riebeck Ave, (32D De'sun Place)<br></br> Edenvale, Gauteng 
                 </small>
               </div>
             </div>
