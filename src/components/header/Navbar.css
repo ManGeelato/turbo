@@ -13,17 +13,16 @@
 .navbar-brand {
   background: -webkit-linear-gradient(
     0deg,
-    rgb(174, 137, 88),
+    rgb(148, 160, 197),
     #6694ef,
-    #fff
+    #4596C9
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 900;
+  font-weight: 700;
   text-align: center;
   font-family: "Playfair Display", serif;
-  font-size: x-large;
-  
+  font-size: 30px
 }
 .nav-item {
   margin: 0px 15px;

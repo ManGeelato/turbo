@@ -3,6 +3,10 @@ import "./Home.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
+import MercedesLogo from '../../assets/MercLogo.jpg'
+import MazdaLogo from '../../assets/MAZDABADGE.jpg'
+import BMWLogo from '../../assets/bmwLogo.jpg'
+import VWLogo from '../../assets/vwLogo.jpg';
 
 function Home() {
   const handleDragStart = (e) => e.preventDefault();
@@ -113,61 +117,29 @@ function Home() {
           <div class="row">
             <div class="col-lg-4 col-md-4">
               <div id="homeBannerCard">
-                <i class="bx bx-notepad"></i>
-                <h5>Research and Development:</h5>
-                <p>
-                  Designing and engineering turbocharger systems require significant research and development efforts. 
-                  This involves designing components, testing prototypes, and optimizing performance.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <div id="homeBannerCard">
               <i class='bx bx-notepad'></i>
                 <h5>Sales and Distribution:</h5>
                 <p>
-                  Turbocharger companies sell their products to various customers, including automotive manufacturers, aftermarket retailers, and individual consumers. 
-                  They may have distribution networks to reach customers worldwide.
+                  We sell new and reconditioned turbos as well as loose turbo parts including actuators, cartridges, VNT, shaft, compressor wheel and kits.
                 </p>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="homeBannerCard">
               <i class='bx bx-notepad'></i>
-                <h5>Technical Support: </h5>
+                <h5>Aftermarket Turbos: </h5>
                 <p>
-                  Providing technical support to customers is crucial, especially for aftermarket installations. 
-                  This includes offering installation guidance, troubleshooting assistance, and maintenance advice.
+                  We provide aftermarket installations and sales of new turbos and loose parts for brands like Holset, Garret, Borgwarner and Mitsubishi. 
                 </p>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="homeBannerCard">
               <i class='bx bx-notepad'></i>
-                <h5>Product Innovation: </h5>
+                <h5>Turbo Repairs: </h5>
                 <p>
-                  Staying competitive in the automotive industry requires continuous product innovation. Turbocharger companies may develop new technologies, 
-                  improve efficiency, and explore alternative materials to enhance their products.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <div id="homeBannerCard">
-              <i class='bx bx-notepad'></i>
-                <h5>Manufacturing:</h5>
-                <p>
-                  Producing turbochargers involves precision manufacturing processes. This includes machining components, assembling turbocharger units, 
-                  and quality control inspections to ensure reliability and performance.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <div id="homeBannerCard">
-                <i class="bx bx-notepad"></i>
-                <h5>Compliance and Regulation: </h5>
-                <p>
-                  Ensuring compliance with industry standards and regulations is important for product safety and performance. 
-                  Turbocharger companies need to adhere to emission standards in different markets.
+                  We repair broken turbos for all makes of Mercedes Benz, (VW) Volkswagen and BMW. This
+                  includes Diagnosis, Disassembly, Parts replacement, Testing & Re-Assembly.
                 </p>
               </div>
             </div>
@@ -175,35 +147,31 @@ function Home() {
         </div>
 
         <div id="offer">
-          <h4>Why Choose Us ?</h4>
+          <h4>Brands We Specialize In</h4>
           <div class="row">
             <div class="col-lg-3 col-md-4" id="offerCardBox">
               <div id="offerCard">
-                <h4>3+</h4>
-                <h5>Years of Experience</h5>
+                <img src={MercedesLogo} />
               </div>
             </div>
             <div class="col-lg-3 col-md-4" id="offerCardBox">
               <div id="offerCard">
-                <h4>500+</h4>
-                <h5>Completed Projects</h5>
+              <img src={MazdaLogo} />
               </div>
             </div>
             <div class="col-lg-3 col-md-4" id="offerCardBox">
               <div id="offerCard">
-                <h4>380+</h4>
-                <h5>Happy Clients</h5>
+                <img src={BMWLogo} />
               </div>
             </div>
 
             <div class="col-lg-3 col-md-4" id="offerCardBox">
               <div id="offerCard">
-                <h4>50+</h4>
-                <h5>Trusted Affliates</h5>
+              <img src={VWLogo} />
               </div>
             </div>
           </div>
-          <div id="newsLetter">
+          {/* <div id="newsLetter">
             <h4>Please Subscribe To Our NewsLetter</h4>
             <p>
               Subscribe to our newsletter below so you don't miss any updates from us!,{" "}
@@ -212,7 +180,7 @@ function Home() {
               <input type="email" placeholder="Email address" />
               <button>Subscribe</button>
             </div>
-          </div>
+          </div> */}
         </div>
         <div id="mission">
           <h4>
