@@ -21,10 +21,9 @@ function About() {
                 BMW, Mercedes-Benz, and Mazda. With years of expertise and a passion for automotive innovation, we're dedicated to providing high-quality turbocharging solutions that elevate driving experiences to new heights.
               </p>
               <p>
-                Our mission at <strong>Turbo PRO SA</strong> is to empower drivers with cutting-edge turbocharger technology, delivering unparalleled performance and efficiency. We strive to be at the forefront of automotive advancements, 
-                continuously pushing the boundaries of turbocharging to optimize engine power and fuel economy.
+                Our mission at <strong>Turbo PRO SA</strong> is to empower drivers with cutting-edge turbocharge technology, delivering unparalleled performance and efficiency. We sell new and reconditioned turbos as well as loose turbo parts including actuators, cartridges, VNT, shaft, compressor wheel and kits.  
+                Our main business is turbo sales and repairs
               </p>
-              <p>Our team comprises skilled engineers and automotive enthusiasts who bring extensive knowledge and experience to every project. We understand the unique characteristics of each vehicle brand and tailor our turbocharger solutions to meet specific performance requirements.</p>
               <p>
                 Quality is at the core of everything we do. From design and manufacturing to testing and installation, we adhere to the highest industry standards to ensure the reliability and durability of our turbochargers. Our commitment to quality translates into superior performance and peace of mind for our customers.
                 As technology evolves, so do we. We invest in research and development to stay ahead of the curve, continuously innovating our turbocharger designs to deliver optimal performance gains. Whether it's maximizing power output, improving throttle response, or enhancing fuel efficiency, we're dedicated to pushing the boundaries of turbocharging technology.
@@ -171,20 +170,19 @@ function About() {
             <div class="col-lg-4 col-md-4">
               <div id="aboutOfferCard">
                 <i class="bx bxs-car"></i>
-                <p>Tailored Turbo Services</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <div id="aboutOfferCard">
-                <i class="bx bx-wallet-alt"></i>
-
-                <p>Affordable Turbo Parts</p>
+                <p>Aftermarket Turbo Parts</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="aboutOfferCard">
                 <i class="bx bx-package"></i>
-                <p>Reliable Turbo Parts</p>
+                <p>Turbo Sales and Distribution</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div id="aboutOfferCard">
+                <i class="bx bxs-car"></i>
+                <p>Turbo Repairs</p>
               </div>
             </div>
           </div>
