@@ -11,12 +11,13 @@
 }
 
 .navbar-brand {
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
     0deg,
-    rgb(80, 109, 197),
+    rgb(30, 70, 190),
     #4596C9,
     #4596C9
-  );
+  ); */
+  background: #4596C9;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
