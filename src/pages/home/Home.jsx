@@ -13,6 +13,7 @@ import Service03 from "../../assets/compressorWheel.jpg";
 import Service04 from "../../assets/turboShaft.jpg";
 import Service05 from "../../assets/5.jpg";
 import Service06 from "../../assets/BearingHousing.jpg";
+import { GoogleReCaptchaProvider, GoogleReCaptcha } from "react-google-recaptcha-v3";
 
 function Home() {
   const handleDragStart = (e) => e.preventDefault();
@@ -52,7 +53,7 @@ function Home() {
     1024: { items: 1 },
   };
 
-  
+
   return (
     <>
       <div>
@@ -320,6 +321,11 @@ function Home() {
           </div>
         </div>
       </div>
+      <div id="map">
+          <h4>Find Us Here</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.5333650553034!2d28.15307557541321!3d-26.146753677112017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95124c665edded%3A0x1b7e4a39fb4db56!2s32%20Van%20Riebeeck%20Ave%2C%20Edenvale%2C%20Johannesburg%2C%202000!5e0!3m2!1sen!2sza!4v1709716272741!5m2!1sen!2sza" id="map" loading="lazy">
+          </iframe>
+        </div>
       <Footer/>
     </>
   );

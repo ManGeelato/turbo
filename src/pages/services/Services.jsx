@@ -5,6 +5,9 @@ import Mitsubishi from '../../assets/mitsubishi.jpg';
 import HolsetLogo from '../../assets/Holset.jpg';
 import Borgwarner from '../../assets/borgwarner.jpg';
 import garretAdvancing from '../../assets/Garret Advancing.jpg';
+import masterCard from '../../assets/cardAccepted1.jpg';
+import debitCard from '../../assets/cardAccepted2.jpg';
+import creditCard from '../../assets/cardAccepted3.jpg';
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
@@ -80,6 +83,28 @@ const handleDragStart = (e) => e.preventDefault();
     0: { backgroundImageItems: 1 },
     1024: { backgroundImageItems: 1 },
   };
+
+  const paymentItems = [
+    <div id="partnerCard">
+      <div id="partnerCardBox">
+        <img src={debitCard} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+      <div id="partnerCardBox">
+        <img src={masterCard} alt="" />
+      </div>
+    </div>,
+    <div id="partnerCard">
+      <div id="partnerCardBox">
+        <img src={creditCard} alt="" />
+      </div>
+    </div>,
+  ];
+  const paymentItemsResponsive = {
+    0: { items: 1 },
+    1024: { items: 3 },
+  };
   
   return (
     <>
@@ -96,10 +121,8 @@ const handleDragStart = (e) => e.preventDefault();
           animationType="fadeout"
         />
       </div>
-
-
+      
       <div className="container" id="serviceBox">
-
         <div id="homeMessage">
           <h4>What We Do.</h4>
           <div class="row">
@@ -144,6 +167,41 @@ const handleDragStart = (e) => e.preventDefault();
             infinite={true}
             autoPlayInterval={3000}
             responsive={responsive}
+          />
+        </div>
+        <div id="aboutOffer">
+          <div class="row">
+            <div class="col-lg-4 col-md-4">
+              <div id="aboutOfferCard">
+                <i class="bx bxs-car"></i>
+                <p>Aftermarket Turbo Parts</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div id="aboutOfferCard">
+                <i class="bx bx-package"></i>
+                <p>Turbo Sales and Distribution</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div id="aboutOfferCard">
+                <i class="bx bxs-car"></i>
+                <p>Turbo Repairs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container" id="theParterPageSection">
+          <h2>Payment Methods Accepted</h2>
+          <AliceCarousel
+            mouseTracking
+            items={paymentItems}
+            autoPlay
+            disableButtonsControls={true}
+            disableDotsControls={false}
+            infinite={true}
+            autoPlayInterval={3000}
+            responsive={paymentItemsResponsive}
           />
         </div>
       </div>
