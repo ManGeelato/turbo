@@ -1,3 +1,83 @@
+#servicesReviewCard {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.726)),
+      url("../../assets/servicesRolling1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+  }
+  #servicesReviewCard01 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.61)),
+      url("../../assets/servicesRolling2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+  }
+  #servicesReviewCard02 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.5)),
+      url("../../assets/servicesRolling3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    padding: 15px;
+  }
+  #servicesReviewCard03 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.5)),
+      url("../../assets/servicesRolling1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+  }
+  #servicesReviewCardInner {
+    max-width: 1000px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #servicesReviewCardInner h1 {
+    background: -webkit-linear-gradient(0deg, #4596C9, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    text-align: start;
+  }
+  #servicesReviewCardInner p {
+    color: antiquewhite;
+  }
+  #servicesReviewCardInner button {
+    margin-top: 20px;
+    padding: 12px 40px;
+    border: none;
+    background-color: #4596C9;
+    color: #d29968;
+    border-radius: 5px;
+    border: 2px solid antiquewhite;
+}
+
 #servicePage{
     width: 100%;
     height: 60vh;

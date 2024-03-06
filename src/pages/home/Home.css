@@ -87,8 +87,6 @@
   justify-content: center;
 }
  
-
-
 @media (max-width: 750px) {
   #homeAddressCard {
     width: 100%;
@@ -305,7 +303,6 @@
   background-color: #4596C9;
   height: 100%;
   border-radius: 5px;
-
   padding: 15px 0px;
 }
 #homeContactCardInfor {

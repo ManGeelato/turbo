@@ -7,6 +7,12 @@ import MercedesLogo from '../../assets/MercLogo.jpg'
 import MazdaLogo from '../../assets/MAZDABADGE.jpg'
 import BMWLogo from '../../assets/bmwLogo.jpg'
 import VWLogo from '../../assets/vwLogo.jpg';
+import Service01 from "../../assets/1.jpg";
+import Service02 from "../../assets/shaft.jpg";
+import Service03 from "../../assets/compressorWheel.jpg";
+import Service04 from "../../assets/turboShaft.jpg";
+import Service05 from "../../assets/5.jpg";
+import Service06 from "../../assets/BearingHousing.jpg";
 
 function Home() {
   const handleDragStart = (e) => e.preventDefault();
@@ -45,6 +51,8 @@ function Home() {
     0: { items: 1 },
     1024: { items: 1 },
   };
+
+  
   return (
     <>
       <div>
@@ -112,40 +120,66 @@ function Home() {
             </div>
           </div>
         </div>
-        <div id="homeMessage">
-          <h4>What We Do.</h4>
-          <div class="row">
-            <div class="col-lg-4 col-md-4">
-              <div id="homeBannerCard">
-              <i class='bx bx-notepad'></i>
-                <h5>Sales and Distribution:</h5>
-                <p>
-                  We sell new and reconditioned turbos as well as loose turbo parts including actuators, cartridges, VNT, shaft, compressor wheel and kits.
-                </p>
-              </div>
+
+        <div class="row" id="serviceWrap">
+          <h4>We Sell & Repair</h4>
+          <div class="col-lg-4 col-md-4">
+            <div id="serviceBoxCard">
+              <img src={Service01} alt="" />
+              <h5>Centre Core or Cartridge</h5>
+              <p>
+                This element houses the key elements responsible for playing a vital role in extracting energy from exhaust gases and compressing intake air, thereby improving engine performance and efficiency. 
+              </p>
             </div>
-            <div class="col-lg-4 col-md-4">
-              <div id="homeBannerCard">
-              <i class='bx bx-notepad'></i>
-                <h5>Aftermarket Turbos: </h5>
-                <p>
-                  We provide aftermarket installations and sales of new turbos and loose parts for brands like Holset, Garret, Borgwarner and Mitsubishi. 
-                </p>
-              </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="serviceBoxCard">
+              <img src={Service04} alt="" />
+              <h5>Complete Turbo Chargers</h5>
+              <p>
+                Complete turbochargers play a crucial role in modern engine technology, enabling vehicles to achieve higher performance, improved fuel efficiency, and reduced emissions without sacrificing power or torque.
+              </p>
             </div>
-            <div class="col-lg-4 col-md-4">
-              <div id="homeBannerCard">
-              <i class='bx bx-notepad'></i>
-                <h5>Turbo Repairs: </h5>
-                <p>
-                  We repair broken turbos for all makes of Mercedes Benz, (VW) Volkswagen and BMW. This
-                  includes Diagnosis, Disassembly, Parts replacement, Testing & Re-Assembly.
-                </p>
-              </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="serviceBoxCard">
+              <img src={Service02} alt="" />
+              <h5>Turbo Shafts</h5>
+              <p>
+                Responsible for facilitating the transfer of energy from exhaust gases to intake air, 
+                contributing to increased engine performance and efficiency essential for reliable turbocharger operation
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="serviceBoxCard">
+              <img src={Service03} alt="" />
+              <h5>Turbo Compressor Wheel</h5>
+              <p>
+                Responsible for boosting engine performance by compressing intake air to higher pressures,
+                playing a role in the efficiency and effectiveness of the turbocharger.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="serviceBoxCard">
+              <img src={Service05} alt="" />
+              <h5>Electronic Actuator</h5>
+              <p>
+                It enables advanced control over boost pressure, turbine geometry, and transient performance characteristics improving engine efficiency, performance, and drivability.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="serviceBoxCard">
+              <img src={Service06} alt="" />
+              <h5> Bearing Housing</h5>
+              <p>
+                The bearing housing is a critical component of the turbocharger assembly, providing support, sealing, and cooling for the rotating shaft and bearings.
+              </p>
             </div>
           </div>
         </div>
-
         <div id="offer">
           <h4>Brands We Specialize In</h4>
           <div class="row">
