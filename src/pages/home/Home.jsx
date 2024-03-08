@@ -123,7 +123,7 @@ function Home() {
         </div>
 
         <div class="row" id="serviceWrap">
-          <h4>We Sell & Repair</h4>
+          <h4>Sales and Turbo Charger Repairs</h4>
           <div class="col-lg-4 col-md-4">
             <div id="serviceBoxCard">
               <img src={Service01} alt="" />
