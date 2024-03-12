@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css";
 import { useNavigate, Link } from "react-router-dom";
-import Logo from "../../assets/logo.jpg";
 
 function Navbar() {
   const navigate = useNavigate();
@@ -9,7 +8,6 @@ function Navbar() {
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <Link to="/" className="navbar-brand">
-          {/* <img src={Logo} id="logoPicture" /> */}
           <p>Turbo Pro SA</p>
         </Link>
         <button
@@ -89,11 +87,13 @@ function Navbar() {
           </ul>
           <div id="navBtn">
             <div id="navIcons">
-              <i class="bx bxl-facebook"></i>
-              <i class="bx bxl-instagram"></i>
-              <i class="bx bxl-twitter"></i>
+                <a href="https://www.facebook.com/profile.php?id=100093834465332" target="_blank">
+                  <i class="bx bxl-facebook"></i>
+                </a>
             </div>
-            <button type="submit">Contact Us</button>
+            <Link to={'/contact'}>
+              <button type="submit"> Contact Us</button>
+            </Link>
           </div>
         </div>
       </div>
