@@ -63,6 +63,7 @@
   -webkit-text-fill-color: transparent;
   font-weight: 700;
   text-align: start;
+  font-size: 50px;
 }
 #reviewCardInner p {
   color: antiquewhite;

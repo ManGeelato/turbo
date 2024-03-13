@@ -90,7 +90,7 @@ function Home() {
               </div>
               <div id="homeAddressCardText">
                 <small>
-                  Mon ~ Sunday<br></br>Open Holidays
+                  Mon ~ Saturday<br></br>Open Holidays
                 </small>
               </div>
             </div>
@@ -114,8 +114,7 @@ function Home() {
               </div>
               <div id="homeAddressCardText">
                 <small>
-                  sales@turboprosa.co.za<br></br> sales@turboprosa.co.za
-                  <br></br>
+                  sales@turboprosa.co.za<br></br> 
                 </small>
               </div>
             </div>
