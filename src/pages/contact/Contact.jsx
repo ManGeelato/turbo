@@ -13,9 +13,12 @@ function Contact() {
       </div>
       <div className="container" id="homePage">
         <div id="homeContact">
+
             <div class="row">
-              <div class="col-lg-8 col-md-4">
-                <form class="row g-3" id="homeContactForm">
+
+            
+            <div class="col-lg-8 col-md-4">
+                <form class="row g-3" id="homeContactForm" form target="_blank" action="https://formsubmit.co/sales@turboprosa.co.za" method="POST">
                   <h4>Get InTouch With Us</h4>
                   <div class="col-md-6">
                     <label for="inputEmail4" class="form-label">
@@ -62,6 +65,7 @@ function Contact() {
                   </div>
                 </form>
               </div>
+
               <div class="col-lg-4 col-md-4">
                 <div id="homeContactCard">
                   <div id="homeContactCardInfor">
