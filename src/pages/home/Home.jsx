@@ -22,7 +22,7 @@ function Home() {
       <div id="reviewCardInner">
         <h1>Turbo Pro SA</h1>
         <p>
-          Where Efficiency Meets Reliability - Delivering Solutions for All Turbo Needs.
+          Our Name Says It All - Delivering Solutions for All Turbo Needs.
         </p>
         {/* <button><a href="/services"></a>Our Work</button> */}
       </div>

@@ -91,9 +91,9 @@ function Navbar() {
                   <i class="bx bxl-facebook"></i>
                 </a>
             </div>
-            <Link to={'/contact'}>
-              <button type="submit"> Contact Us</button>
-            </Link>
+            <a href="https://wa.me/+27742274187">
+              <button type="submit">WhatsApp</button>
+            </a>
           </div>
         </div>
       </div>
