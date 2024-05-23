@@ -46,7 +46,7 @@ function Footer() {
         </div>
       </div>
       <div id="footerRightCard">
-        <small>All Rights Reserved &copy; Turbo Pro SA 2024. Developed by <a href="https://emmanuelkaome-mangeelato.vercel.app/" target="_blank">Emmanuel 'Gadaffi' Kaome</a></small>
+        {/* <small>All Rights Reserved &copy; Turbo Pro SA 2024. Developed by <a href="https://emmanuelkaome-mangeelato.vercel.app/" target="_blank">Emmanuel 'Gadaffi' Kaome</a></small> */}
       </div>
     </div>
   );
